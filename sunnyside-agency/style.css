@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.principal{
+    margin: auto;
+    font-size: 18px;
+}
+
+.header {
+  position: relative;
+  height: calc(98vw / 1.8);
+  background-image: url("./images/desktop/image-header.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+.header_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Barlow', sans-serif;
+  font-weight: 700;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-between;
+  gap: 85px;
+  padding-top: 2.5px;
+  font-weight: 700;
+
+}
+.nav-link-contacts{
+  color: black;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 60px;
+  width: 100px;
+  text-align: center;
+  padding-top: 5px;
+  font-family: 'Fraunces', serif;
+  font-size: 12px;
+
+}
+
+.nav-link-contacts:hover{
+  color:  hsl(0, 0%, 100%);
+  background-color: #3ebfff;
+}
+
+.titulo{
+  text-align: center;
+  padding-top: 100px;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  letter-spacing: 25px;
+  color: hsl(0, 0%, 100%);
+}
+
+.flecha{
+  text-align: center;
+  padding-top: 150px;
+}
+
+.contenido{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.contenido-imagen{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 80%;
+  height: 80%;
+  padding-left: 180px;
+  padding-top: 100px;
+  
+}
+
+.contenido-titulo{
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+}
+
+.descrip{
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+}
+
+.imagen-de-texto{
+  width: 100%;
+  height: 100%;
+}
+
+.imagen-sola{
+  width: 100%;
+  height: 100%;
+}
+
+.imagen-con-texto{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.texto-encima{
+  position: absolute;
+  top: 65%;
+  left: 43%;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  color: hsl(167, 40%, 24%);
+  
+}
+.centrado{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.testimonio{
+  padding-top: 100px;
+  text-align: center;
+  letter-spacing: 5px;
+  font-weight: 600;
+  color: hsl(210, 4%, 67%);
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+}
+
+.clientes{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  height: 300px;
+  font-family: 'Fraunces', serif;
+  font-size: 14px;
+
+}
+
+.cliente{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  padding: 60px 60px;
+  
+}
+.decoration-stand{
+  height: 5px;
+  width: 38%;
+  background-color:hsl(7, 99%, 70%);
+  border-radius: 5px;
+  position: relative;
+  bottom: 2.9rem;
+  z-index: -1;
+}
+
+.decoration-stand2{
+  height: 5px;
+  width: 38%;
+  background-color:hsl(51, 100%, 49%);
+  border-radius: 5px;
+  position: relative;
+  bottom: 2.9rem;
+  z-index: -1;
+}
+
+.cliente-nombre{
+  font-size: 14px;
+}
+
+.cliente-descripcion{
+  font-size: 12px;
+  color: hsl(210, 4%, 67%);
+}
+
+.cliente-parrafo{
+  color: hsl(212, 27%, 19%);
+}
+
+.imagen-cliente{
+  border-radius: 50%;
+  width: 50px;
+}
+
+.contenido-dos{
+  display: flex;
+}
+
+.imagen-dos{
+  width: 25%;
+}
+
+.pie{
+  height: 300px;
+  background-color: hsl(168, 34%, 41%);
+  padding-top: 50px;
+  font-family: 'Fraunces', serif;
+}
+.suni{
+  text-align: center;
+  padding-bottom: 30px;
+}
+.pagina:hover{
+  font-size: 14px;
+  color:hsl(0, 0%, 100%);
+}
+
+.paginas{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 14px;
+}
+
+.redes{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 60px;
+}
+
+.logo:hover{
+ color:hsl(0, 0%, 100%);
+}
